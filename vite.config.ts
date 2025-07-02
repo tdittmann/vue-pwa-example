@@ -16,6 +16,7 @@ export default defineConfig({
       manifest: {
         name: "Vue PWA Example",
         short_name: "VPE",
+        description: "A super installable app created with Vue",
         icons: [
           {src: '/app-icons/icon-48x48.png', sizes: '48x48', type: 'image/png'},
           {src: '/app-icons/icon-72x72.png', sizes: '72x72', type: 'image/png'},
@@ -27,6 +28,9 @@ export default defineConfig({
           {src: '/app-icons/icon-256x256.png', sizes: '256x256', type: 'image/png'},
           {src: '/app-icons/icon-384x384.png', sizes: '384x384', type: 'image/png'},
           {src: '/app-icons/icon-512x512.png', sizes: '512x512', type: 'image/png'},
+        ],
+        screenshots: [
+          {src: 'app-screenshots/screenshot-1.png', sizes: "1080x1903", type: 'image/png'}
         ]
       }
     })
